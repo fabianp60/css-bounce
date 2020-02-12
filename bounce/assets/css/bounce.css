@@ -1,0 +1,22 @@
+@keyframes bounce-animation {
+    0%   { top: -17px; }
+    10%  { top: 17px; }
+    20%  { top: -14px; }
+    30%  { top: 14px; }
+    40%  { top: -11px; }
+    50%  { top: 11px; }
+    60%  { top: -8px; }
+    70%  { top: 8px; }
+    80%  { top: -5px; }
+    90%  { top: 5px; }
+    100% { top: -3px; }
+}
+
+.bounce {
+    position: relative;
+}
+
+.bounce.animate {
+    animation-name: bounce-animation;
+    animation-duration: .5s;
+}

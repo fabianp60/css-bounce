@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejemplo de salto con CSS</title>
+    <link rel="stylesheet" href="assets/css/site.css">
+    <link rel="stylesheet" href="assets/css/bounce.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Ejemplo de bounce sin JS</h2>
+        <p>Este texto <b class="bounce animate">salta</b> con la clase bounce en cuanto se carga la página</p>
+    </div>
+
+    <div class="container">
+        <h2>Ejemplo de bounce con JS</h2>
+        <p>Este texto <b id="make-me-bounce" class="bounce">salta</b> con la clase bounce cuando se pulsa el botón</p>
+        <button id="call-bounce-btn" class="custom-btn">Sálta ahora</button>
+    </div>
+
+    <script src="assets/js/event-bounce.js"></script>
+</body>
+</html>
